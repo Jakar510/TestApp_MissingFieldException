@@ -1,10 +1,8 @@
 # TestApp
 
-Issue duplication example for https://developercommunity.visualstudio.com/t/MissingFieldException:-Field-not-fo/10954903?viewtype=all
+Error duplication example for https://developercommunity.visualstudio.com/t/MissingFieldException:-Field-not-fo/10954903?viewtype=all
 
-Uncomment this line in the `TestApp.csproj` to see the issue `<ProjectReference Include="..\SharedModels\SharedModels.csproj" />`
-
-
+Uncomment `<ProjectReference Include="..\SharedModels\SharedModels.csproj" />` in the `TestApp.csproj` to see the error
 ### Stack trace: when uncommenting the ProjectReference line above
 
 ```
