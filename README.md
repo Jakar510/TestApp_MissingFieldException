@@ -2,6 +2,10 @@
 
 Error duplication example for https://developercommunity.visualstudio.com/t/MissingFieldException:-Field-not-fo/10954903?viewtype=all
 
+
+The error XAGJS7000 occurs when a shared MAUI class library is referenced directly by a MAUI app. Does not seem to occur when it’s through a nuget package.
+
+
 Uncomment `<ProjectReference Include="..\SharedModels\SharedModels.csproj" />` in the `TestApp.csproj` to see the error
 ### Stack trace: when uncommenting the ProjectReference line above
 
