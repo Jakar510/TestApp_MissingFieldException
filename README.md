@@ -9,7 +9,7 @@ It does also occur when it’s through a nuget package-- instead of a project re
 
 NOTE: the shared maui class library builds successfully standalone.
 
-Uncomment `<ProjectReference Include="..\SharedModels\SharedModels.csproj" />` in the `TestApp.csproj` to see the error
+Uncomment `<ProjectReference Include="..\SharedModels\SharedModels.csproj" />` in the [TestApp.csproj](TestApp/TestApp.csproj) to see the error
 ### Stack trace: when uncommenting the ProjectReference line above
 
 ```
