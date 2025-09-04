@@ -128,11 +128,11 @@
 		<PackageReference Include="Xamarin.AndroidX.Navigation.Common" />
 		<PackageReference Include="Xamarin.AndroidX.Navigation.Fragment.Ktx" />
 		<PackageReference Include="Xamarin.AndroidX.RecyclerView.Selection" />
+		<PackageReference Include="Xamarin.AndroidX.SavedState.SavedState.Ktx" />
 		<PackageReference Include="Xamarin.Google.Guava" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <!-- <ProjectReference Include="..\SharedModels\SharedModels.csproj" /> -->
+	  <ProjectReference Include="..\SharedModels\SharedModels.csproj" />
 	</ItemGroup>
-	
 </Project>
